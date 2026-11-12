@@ -1,0 +1,8 @@
+{
+  "name": "hono-workers-template",
+  "private": true,
+  "type": "module",
+  "scripts": {"dev": "wrangler dev", "deploy": "wrangler deploy --minify", "build": "tsc --noEmit && wrangler deploy --dry-run --outdir dist"},
+  "dependencies": {"hono": "^4.0.0"},
+  "devDependencies": {"typescript": "^5.0.0", "wrangler": "^4.0.0"}
+}
