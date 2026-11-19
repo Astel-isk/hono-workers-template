@@ -1,7 +1,7 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "my-api",
+  "name": "astelisk-greet-api",            // 公開URLの一部になる（英小文字・数字・ハイフン）
   "main": "src/index.ts",
   "compatibility_date": "2026-11-01",
-  "observability": { "enabled": true }
+  "observability": { "enabled": true }  // ダッシュボードでログを見る
 }
